@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/lin_progress"
+        android:orientation="vertical">
+
+        <CircleProgress.CircleProgress
+            android:id="@+id/circle_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            app:antiAlias="true"
+            app:arcColors="#00AEAE"
+            app:arcWidth="5dp"
+            app:bgArcColor="@color/colorAccent"
+            app:bgArcWidth="5dp"
+            app:value="0"
+            app:maxValue="10000"
+            app:sweepAngle="360"
+            app:valueSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/text_warning"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:text="@string/no_warning"
+            android:textColor="@color/menu_normal"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/meal_reView"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/no_meal"
+            android:textSize="20dp"
+            android:id="@+id/no_meal"
+            android:textColor="@color/menu_normal"
+            android:background="@color/transparent"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

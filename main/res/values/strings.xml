@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">轻食</string>
+    <string name="home">主页</string>
+    <string name="food">饮食</string>
+    <string name="me">我的</string>
+    <!-- 我的页面 -->
+    <string name="about">关于</string>
+    <string name="signal">></string>
+    <string name="set">设置目标</string>
+    <string name="setting">个人设置</string>
+    <string name="get_foods">食物数据下载</string>
+    <string name="resign">退出登录</string>
+    <!-- 登录界面 -->
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="name">用户名</string>
+    <string name="password">密码</string>
+    <string name="remember">记住密码</string>
+    <!-- 注册页面 -->
+    <string name="type_name">请输入用户名</string>
+    <string name="type_password">请输入密码</string>
+    <string name="type_password_again">再次输入密码</string>
+    <!-- 个人设置页面 -->
+    <string name="setting_title">个人设置</string>
+    <string name="setting_submit">确定</string>
+    <string name="setting_cancel">取消</string>
+    <string name="setting_male">男</string>
+    <string name="setting_female">女</string>
+    <string name="setting_age">年龄：</string>
+    <string name="setting_weight">体重：</string>
+    <string name="setting_ageNum">岁</string>
+    <string name="setting_weightNum">kg</string>
+    <string name="setting_height">身高：</string>
+    <string name="setting_heightNum">m</string>
+    <!-- 蓝牙页面 -->
+    <string name="bluetooth_scan">扫描可用的蓝牙</string>
+    <string name="bluetooth_noBand">没有连接的蓝牙</string>
+    <!-- 主页 -->
+    <string name="no_meal">无用餐记录</string>
+    <string name="no_warning">暂无注意事项</string>
+    <string name="morning">早餐过晚，最好于早上8:00-9:00进行早餐</string>
+    <string name="lunch">午餐过晚，最好于中午11:30-12:30进行午餐</string>
+    <string name="dinner">晚餐过晚，最好于晚上17:30-18:30进行晚餐</string>
+    <!-- 饮食页面 -->
+    <string name="add_meal">去打卡  ></string>
+    <!-- 餐谱页面 -->
+    <string name="type_foodName">请输入食物名</string>
+    <string name="submit">完成打卡</string>
+    <!-- 已选择食品页面 -->
+    <string name="selected">已记录</string>
+    <string name="noSelected">没有食物~快去添加吧~</string>
+</resources>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:id="@+id/login"
+        android:background="?attr/colorPrimary">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/icon_image"
+            android:src="@drawable/nav_icon"
+            android:layout_centerInParent="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7.5dp"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/weight"
+                android:text="体重"
+                android:textColor="#FFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/userBMI"
+                android:text="BMI"
+                android:textColor="#FFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:id="@+id/set"-->
+<!--            android:clickable="true"-->
+<!--            android:background="?android:attr/selectableItemBackground">-->
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="3"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:textSize="20dp"-->
+<!--                android:textColor="@color/menu_normal"-->
+<!--                android:background="@color/transparent"-->
+<!--                android:text="@string/set"-->
+<!--                android:gravity="left|center"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:text="@string/signal"-->
+<!--                android:textSize="20dp"-->
+<!--                android:background="@color/transparent"-->
+<!--                android:textColor="@color/menu_normal"-->
+<!--                android:gravity="center"/>-->
+<!--        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:id="@+id/setting"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"
+                android:textColor="@color/menu_normal"
+                android:background="@color/transparent"
+                android:text="@string/setting"
+                android:gravity="left|center"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/signal"
+                android:textSize="20dp"
+                android:background="@color/transparent"
+                android:textColor="@color/menu_normal"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:id="@+id/Foods"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"
+                android:textColor="@color/menu_normal"
+                android:background="@color/transparent"
+                android:text="@string/get_foods"
+                android:gravity="left|center"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/signal"
+                android:textSize="20dp"
+                android:background="@color/transparent"
+                android:textColor="@color/menu_normal"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:id="@+id/about"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"
+                android:textColor="@color/menu_normal"
+                android:background="@color/transparent"
+                android:text="@string/about"
+                android:gravity="left|center"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/signal"
+                android:textSize="20dp"
+                android:background="@color/transparent"
+                android:textColor="@color/menu_normal"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:id="@+id/resign"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"
+                android:textColor="@color/menu_normal"
+                android:background="@color/transparent"
+                android:text="@string/resign"
+                android:gravity="left|center"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/signal"
+                android:textSize="20dp"
+                android:background="@color/transparent"
+                android:textColor="@color/menu_normal"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
